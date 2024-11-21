@@ -3,5 +3,9 @@ endDevices:
   - t-valve
   - flood-sensor
   - ht-sensor
-  - aqi-sensor
   - co2-sensor
+  - wireless-thermostat
+  - co2-display
+  - co2-display-lite
+  - fan-coil-thermostat
+  - 16aspm
