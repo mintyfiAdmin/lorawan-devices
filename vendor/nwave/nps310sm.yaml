@@ -29,8 +29,6 @@ sensors:
   - proximity
 dimensions:
   diameter: 190
-  width: 190
-  length: 190
   height: 20
 weight: 460
 battery:

@@ -1,4 +1,4 @@
-name: CL - Air Quality Sensor
+name: SEZO CL
 description: Compact low-power sensor device measuring environmental parameters
 
 # Firmware versions (at least one is mandatory)
@@ -101,7 +101,7 @@ productURL: https://sezo.pl/en/model-sezo-cl/
 
 # Photos
 photos:
-  main: sezocl.png
+  main: sezocl.jpg
 
 # Youtube or Vimeo Video (optional)
 videos:

@@ -20,8 +20,7 @@ uplinkDecoder:
         data:
           Device: 'R312'
           Volt: 3
-          Alarm: 1
-          FunctionKeyTrigger: 'others'
+          Doorbell: 1
 
     - description: Configure report response
       input:

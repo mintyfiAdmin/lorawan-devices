@@ -1,4 +1,4 @@
-name: S2100 LoRaWAN® Data Logger
+name: SenseCAP S2100 LoRaWAN® Data Logger
 description: SenseCAP S2100 LoRaWAN® Data Logger is an easy-to-deploy, industrial-grade LoRaWAN® sensor hub that can support 100+ industrial sensors including various sensor types such as 0~5V / 4~20mA / RS485.
 
 # Hardware versions (optional, use when you have revisions)
@@ -23,35 +23,31 @@ firmwareVersions:
         # Unique identifier of the profile (lowercase, alphanumeric with dashes, max 36 characters)
         id: sensecap-profile
         lorawanCertified: true
-        codec: sensecap2100-codec
+        codec: sensecap210x-codec
       US902-928:
         id: sensecap-profile
         lorawanCertified: true
-        codec: sensecap2100-codec
+        codec: sensecap210x-codec
       AU915-928:
         id: sensecap-profile
         lorawanCertified: true
-        codec: sensecap2100-codec
+        codec: sensecap210x-codec
       KR920-923:
         id: sensecap-profile
         lorawanCertified: true
-        codec: sensecap2100-codec
+        codec: sensecap210x-codec
       IN865-867:
         id: sensecap-profile
         lorawanCertified: true
-        codec: sensecap2100-codec
+        codec: sensecap210x-codec
       AS923:
         id: sensecap-profile
         lorawanCertified: true
-        codec: sensecap2100-codec
+        codec: sensecap210x-codec
       RU864-870:
         id: sensecap-profile
         lorawanCertified: true
-        codec: sensecap2100-codec
-
-sensors:
-  - 4-20 ma
-  - analog input
+        codec: sensecap210x-codec
 
 # Dimensions in mm (optional)
 # Use width, height, length and/or diameter
@@ -95,9 +91,6 @@ keySecurity: none
 # Product and data sheet URLs (optional)
 productURL: https://www.seeedstudio.com/SenseCAP-S2100-LoRaWAN-Data-Logger-p-5361.html
 dataSheetURL: https://files.seeedstudio.com/products/114992867/SenseCAP%20S210X%20LoRaWAN%20Sensor%20Catalogue.pdf
-# Link to simple, easy onboarding instructions for the device (optional).
-# Please do not use this for marketing or overly technical documents like a data sheet.
-onboardingGuideURL: https://www.thethingsindustries.com/docs/devices/models/seeed-s210x/
 
 # Commercial information
 resellerURLs:

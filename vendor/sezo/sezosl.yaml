@@ -1,4 +1,4 @@
-name: SL - Air Quality Sensor
+name: SEZO SL
 description: Compact low-power sensor device measuring environmental parameters
 
 # Firmware versions (at least one is mandatory)
@@ -103,7 +103,7 @@ productURL: https://sezo.pl/en/model-sezo-sl
 
 # Photos
 photos:
-  main: sezosl.png
+  main: sezosl.jpg
 
 # Youtube or Vimeo Video (optional)
 videos:

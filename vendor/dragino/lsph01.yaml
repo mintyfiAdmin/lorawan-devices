@@ -1,4 +1,4 @@
-name: LSPH01 - Soil pH Sensor
+name: LSPH01
 description: LoRaWAN Soil pH Sensor
 
 # Firmware versions (at least one is mandatory)

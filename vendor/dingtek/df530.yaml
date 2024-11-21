@@ -1,4 +1,4 @@
-name: DF530 - Tank Level Sensor
+name: df530
 description: lpg tank level sensor, detect liquid level in tank.
 
 # Hardware versions (optional, use when you have revisions)

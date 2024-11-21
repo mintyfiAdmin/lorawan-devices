@@ -33,9 +33,6 @@ firmwareVersions:
         id: profile-cn470
         codec: r730da-codec
 
-sensors:
-  - vibration
-
 battery:
   replaceable: true
   type: 2 x ER14505 3.6V Lithium AA battery
@@ -58,4 +55,4 @@ productURL: http://www.netvox.com.tw/product.asp?pro=R730DA
 dataSheetURL: http://www.netvox.com.tw/um/R730DA/R730DAdatasheet.pdf
 
 photos:
-  main: photos/r730da.png
+  main: photos/r730mba.png

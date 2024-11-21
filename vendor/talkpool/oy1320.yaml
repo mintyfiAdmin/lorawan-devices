@@ -28,9 +28,6 @@ firmwareVersions:
         lorawanCertified: true
         codec: oy1320-codec
 
-sensors:
-  - infrared
-
 # Battery information (optional)
 battery:
   replaceable: true

@@ -1,4 +1,4 @@
-name: OTX-18 LoRaWAN module
+name: Onethinx LoRaWAN module
 description: Onethinx Core LoRaWAN® module integrates Cypress® PSoC® 6 MCU, Semtech® SX126x chipset, dual ARM® Core processor (150MHz / 1MB Flash / 256KB SRAM), compact and highly efficient integrated antenna, and Bluetooth BLE 5.0. It provides faster development of LoRaWAN® products and also reduces development costs.
 
 # Hardware versions (optional, use when you have revisions)
@@ -29,8 +29,6 @@ firmwareVersions:
         id: otx18-us915-profile
         lorawanCertified: false
         #codec: otx18-eu868-codec
-
-deviceType: module
 
 # Additional radios that this device has (optional)
 # Valid values are: ble, nfc, wifi, cellular.

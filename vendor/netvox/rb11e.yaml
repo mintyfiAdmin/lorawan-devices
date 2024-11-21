@@ -37,7 +37,6 @@ firmwareVersions:
 sensors:
   - light
   - temperature
-  - occupancy
 
 dimensions:
   width: 78

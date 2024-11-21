@@ -86,7 +86,7 @@ function getActualityDuration(input) {
   return duration;
 }
 
-function decodeUplink(input){
+function decodeUplinkShort(input){
   var bytes = input.bytes;
   var decoded = {};
   var data = {};

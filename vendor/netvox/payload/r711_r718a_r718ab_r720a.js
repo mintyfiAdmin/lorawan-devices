@@ -13,8 +13,7 @@ function getDeviceName(dev){
 	 1: "R711(R712)",
     11: "R718A",
 	19: "R718AB",
-	110: "R720A",
-	111: "R720B"
+	110: "R720A"
   };
   return deviceName[dev];
 }
@@ -28,8 +27,6 @@ function getDeviceType(devName){
 	  return 19;
   else if (devName == "R720A")
 	  return 110;
-  else if (devName == "R720B")
-	  return 111;
 }
 
 function padLeft(str, len) {
@@ -75,9 +72,6 @@ function decodeUplink(input) {
 			data.Temp = (input.bytes[4]<<8 | input.bytes[5])/100;
 		
 		data.Humi = (input.bytes[6]<<8 | input.bytes[7])/100;
-		
-		if (input.bytes[1] === 0x6F)
-			data.Alarm = input.bytes[8] ? 'ON' : 'OFF';
 
 		break;
 		

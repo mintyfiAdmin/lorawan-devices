@@ -1,4 +1,4 @@
-name: AL - Air Quality Sensor
+name: SEZO AL
 description: Air Monitoring Sensor
 
 # Hardware versions (optional, use when you have revisions)
@@ -104,7 +104,7 @@ productURL: https://sezo.pl/en/model-sezo-al
 
 # Photos
 photos:
-  main: sezoal.png
+  main: sezoal.jpg
 
 # Youtube or Vimeo Video (optional)
 videos:

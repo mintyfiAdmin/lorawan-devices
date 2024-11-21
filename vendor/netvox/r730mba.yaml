@@ -33,9 +33,6 @@ firmwareVersions:
         id: profile-cn470
         codec: r730mba-codec
 
-sensors:
-  - vibration
-
 dimensions:
   width: 65
   length: 112

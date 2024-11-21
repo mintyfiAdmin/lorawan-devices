@@ -25,9 +25,6 @@ firmwareVersions:
         id: rak7431-915-profile
         lorawanCertified: false
 
-bridgeInterfaces:
-  - rs-485
-
 # Dimensions in mm (optional)
 # Use width, height, length and/or diameter
 dimensions:

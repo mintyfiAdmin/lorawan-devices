@@ -1,4 +1,4 @@
-name: Temperature Indoor Sensor
+name: Temperature indoor sensor
 description: The nke WATTECO temperature indoor sensor measures indoor ambient temperature and transmits data over the LoRaWAN® network.
 
 # Hardware versions (optional, use when you have revisions)

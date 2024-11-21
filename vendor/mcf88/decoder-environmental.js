@@ -818,7 +818,7 @@ function getWindSpeed(value) {
 }
 
 function getRainRate(value) {
-  var rainRate = value * 0.2;
+  var rainRate = value * 0.254;
   return Number(rainRate).toFixed(2);
 }
 

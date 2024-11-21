@@ -1,4 +1,4 @@
-name: DF702 - Waste Bin Level Sensor
+name: df702
 description: The CNDingtek DF702 is a waste bin sensor that consists of a level sensor, fire sensor, and accelerometer. The measured data is reported to a LoRaWAN® network that notifies garbage collecting authorities to collect and empty the bins.
 
 # Hardware versions (optional, use when you have revisions)

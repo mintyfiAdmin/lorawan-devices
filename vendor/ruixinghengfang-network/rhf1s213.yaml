@@ -1,4 +1,4 @@
-name: RHF1S213 - Ultrasonic Water Meter
+name: RHF1S213
 description:
   LORAWAN Ultrasonic Intelligent Water Meter
 
@@ -64,8 +64,9 @@ firmwareVersions:
 # power, precipitation, pressure, proximity, pulse count, pulse frequency, radar, rainfall, rssi, smart valve, snr, so2,
 # solar radiation, sound, strain, surface temperature, temperature, tilt, time, tvoc, uv, vapor pressure, velocity,
 # vibration, voltage, water potential, water, weight, wifi ssid, wind direction, wind speed.
-sensors:
-  - water
+#sensors:
+#  - wind direction
+#  - wind speed
 
 # Additional radios that this device has (optional)
 # Valid values are: ble, nfc, wifi, cellular.

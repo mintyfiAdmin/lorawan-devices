@@ -1,4 +1,4 @@
-name: DL-DLR2-012 - Analog Strain Gauge Sensor Transmitter
+name: DL-DLR2-012
 description: The Decentlab DL-DLR2-012 is an Analog or Digital Sensor Device for LoRaWAN® that consists of an Analog Strain Gauge Sensor.
 
 hardwareVersions:

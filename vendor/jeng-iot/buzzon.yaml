@@ -35,9 +35,6 @@ firmwareVersions:
       #   lorawanCertified: true
       #   codec: windsensor-codec
 
-sensors:
-  - button
-
 # Dimensions in mm (optional)
 # Use width, height, length and/or diameter
 dimensions:

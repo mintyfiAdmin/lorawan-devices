@@ -1,4 +1,4 @@
-name: MCF-LW06485 - Modbus Interface
+name: MCF-LW06485
 description: This device can be interfaced to any Modbus RTU RDS485 device to read and write any register of the connected device through the LoRaWAN® platform.
 # Firmware versions (at least one is mandatory)
 firmwareVersions:
@@ -33,9 +33,6 @@ firmwareVersions:
 # vibration, water, wind direction and wind speed.
 sensors:
   - auxiliary
-
-bridgeInterfaces:
-  - modbus
 
 # Dimensions in mm (optional)
 # Use width, height, length and/or diameter
@@ -77,7 +74,8 @@ dataSheetURL: https://enginko.com/wp-content/uploads/2020/09/MCF-LW06485.pdf
 
 # Photos
 photos:
-  main: mcf-lw06485.png
+  main: mcf-lw06485.jpg
+
 # Regulatory compliances (optional)
 compliances:
   safety:

@@ -23,9 +23,7 @@ function getLeakSensorCount(dev){
   var deviceName = {
   	"R311W": 2,
 	"R718WA": 1,
-	"R718WB": 1,
-	"R718WA2": 2,
-	"R718WB2": 2
+	"R718WB": 1
   };
 
   return deviceName[dev];
@@ -35,9 +33,7 @@ function getDeviceName(dev){
   var deviceName = {
 	6: "R311W",
 	50: "R718WA",
-	18: "R718WB",
-	70: "R718WA2",
-	71: "R718WB2"
+	18: "R718WB"
   };
   return deviceName[dev];
 }
@@ -46,9 +42,7 @@ function getDeviceID(devName){
   var deviceName = {
 	"R311W": 6,
 	"R718WA": 50,
-	"R718WB": 18,
-	"R718WA2": 70,
-	"R718WB2": 71
+	"R718WB": 18
   };
 
   return deviceName[devName];

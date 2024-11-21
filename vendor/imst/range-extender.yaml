@@ -35,8 +35,7 @@ firmwareVersions:
         lorawanCertified: true
         codec: range-extender-codec
 
-bridgeInterfaces:
-  - m-bus
+# Sensors that this device features (optional)
 
 # Dimensions in mm (optional)
 # Use width, height, length and/or diameter

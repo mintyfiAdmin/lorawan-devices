@@ -98,18 +98,3 @@ default:
     }
   }
 }
-
-function normalizeUplink(input) {
-  return {
-    data: {
-        air: {
-            temperature: input.data.TempC_SHT,
-            relativeHumidity: input.data.Hum_SHT
-        },
-        action: {
-          contactState: input.data.Door_status === "CLOSE" ? "closed" : input.data.Door_status === "OPEN" ? "open" : undefined
-        },
-        battery: input.data.BatV,
-      }
-  };
-}

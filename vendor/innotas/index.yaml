@@ -1,8 +1,5 @@
+# This example contains just one end device: windsensor. It is referenced here in the index.
+
 endDevices:
-  - wireless-water-meter
-profileIDs:
-  '2':
-    endDeviceID: 'wireless-water-meter'
-    firmwareVersion: '1.0'
-    hardwareVersion: '1.0'
-    region: 'EU863-870'
+  # Unique identifier of the end device (lowercase, alphanumeric with dashes, max 36 characters)
+  - wireless-water-meter # look in wireless-water-meter.yaml for the end device definition
