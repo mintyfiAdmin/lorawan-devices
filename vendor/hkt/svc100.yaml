@@ -1,0 +1,104 @@
+name: Selenoid Valve Controller 100
+description: HKT - Selenoid Valve Controller 100
+
+hardwareVersions:
+  - version: '1.0'
+    numeric: 1
+
+firmwareVersions:
+  - version: '1.0'
+    numeric: 1
+    hardwareVersions:
+      - '1.0'
+
+    profiles:
+      EU863-870:
+        id: svc100-eu868
+        lorawanCertified: true
+        codec: svc100-codec
+      US902-928:
+        id: svc100-us915
+        lorawanCertified: true
+        codec: svc100-codec
+      AU915-928:
+        id: svc100-au915
+        lorawanCertified: true
+        codec: svc100-codec
+      AS923:
+        id: svc100-as923
+        lorawanCertified: true
+        codec: svc100-codec
+      CN470-510:
+        id: svc100-cn470
+        lorawanCertified: true
+        codec: svc100-codec
+      KR920-923:
+        id: svc100-kr920
+        lorawanCertified: true
+        codec: svc100-codec
+      IN865-867:
+        id: svc100-in865
+        lorawanCertified: true
+        codec: svc100-codec
+      RU864-870:
+        id: svc100-ru864
+        lorawanCertified: true
+        codec: svc100-codec
+
+sensors:
+  - battery
+  - smart valve
+
+dimensions:
+  width: 34
+  length: 26
+  height: 77
+
+battery:
+  replaceable: true
+  type: 19000 mAh Li-SOCL2
+
+operatingConditions:
+  temperature:
+    min: -30
+    max: 85
+
+  relativeHumidity:
+    min: 0
+    max: 0.97
+
+ipCode: IP64
+
+keyProvisioning:
+  - custom
+  - join server
+
+keySecurity: none
+
+# Commercial information
+resellerURLs:
+  - name: 'Reseller 1'
+    region:
+      - European Union
+    url: https://example.org/reseller1
+
+photos:
+  main: svc100.png
+  other:
+    - svc100-package.png
+
+# Regulatory compliances (optional)
+compliances:
+  safety:
+    - body: IEC
+      norm: EN
+      standard: 62368-1
+  radioEquipment:
+    - body: ETSI
+      norm: EN
+      standard: 301 489-1
+      version: 2.2.0
+    - body: ETSI
+      norm: EN
+      standard: 301 489-3
+      version: 2.1.0

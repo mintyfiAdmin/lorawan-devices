@@ -1778,16 +1778,6 @@ vendors:
     ouis:
       - 102CEF
 
-  - id: ellenex
-    name: Ellenex
-    description: Ellenex provides Industrial IOT Solutions that are ruggedused, battery operated and scalable.
-    logo: logo.png
-    website: https://www.ellenex.com
-    social:
-      linkedin: https://au.linkedin.com/company/ellenex
-    ouis:
-      - 70B3D5CD0
-
   - id: ttn
     name: The Things Network Foundation
 
