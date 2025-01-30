@@ -1,0 +1,55 @@
+# Uplink decoder decodes binary data uplink into a JSON object (optional)
+# For documentation on writing encoders and decoders, see: https://thethingsstack.io/integrations/payload-formatters/javascript/
+uplinkDecoder:
+  fileName: df703.js
+
+# Downlink encoder encodes JSON object into a binary data downlink (optional)
+downlinkEncoder:
+  fileName: df703.js
+  examples:
+    - description: change periodic upload interval to 4 hours
+      input:
+        data:
+          uploadInterval: 4
+      output:
+        bytes: [0x38, 0x30, 0x30, 0x32, 0x39, 0x39, 0x39, 0x39, 0x30, 0x31, 0x30, 0x34, 0x38, 0x31]
+        fPort: 3
+    - description: change detection interval to 10 minutes
+      input:
+        data:
+          detectInterval: 10
+      output:
+        bytes: [0x38, 0x30, 0x30, 0x32, 0x39, 0x39, 0x39, 0x39, 0x30, 0x38, 0x30, 0x41, 0x38, 0x31]
+        fPort: 3
+    - description: change full alarm threshold to 35cm
+      input:
+        data:
+          levelThreshold: 35
+      output:
+        bytes: [0x38, 0x30, 0x30, 0x32, 0x39, 0x39, 0x39, 0x39, 0x30, 0x32, 0x32, 0x33, 0x38, 0x31]
+        fPort: 3
+    - description: change fire alarm threshold to 70℃
+      input:
+        data:
+          fireThreshold: 70
+      output:
+        bytes: [0x38, 0x30, 0x30, 0x32, 0x39, 0x39, 0x39, 0x39, 0x30, 0x33, 0x34, 0x36, 0x38, 0x31]
+        fPort: 3
+    - description: change tilt alarm threshold to 45°
+      input:
+        data:
+          fallThreshold: 45
+      output:
+        bytes: [0x38, 0x30, 0x30, 0x32, 0x39, 0x39, 0x39, 0x39, 0x30, 0x34, 0x32, 0x44, 0x38, 0x31]
+        fPort: 3
+    - description: enable fall detection
+      input:
+        data:
+          fallEnable: true
+      output:
+        bytes: [0x38, 0x30, 0x30, 0x32, 0x39, 0x39, 0x39, 0x39, 0x30, 0x39, 0x30, 0x41, 0x38, 0x31]
+        fPort: 3
+
+# Downlink decoder decodes the encoded downlink message (optional, must be symmetric with downlinkEncoder)
+downlinkDecoder:
+  fileName: df703.js
